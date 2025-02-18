@@ -22,6 +22,6 @@ The instructions are for GNU/Linux, but you can also do this on macOS / Windows 
 
 ## Examples of get-requests with curl
 
-- `curl -X "http:127.0.0.1:8000/api/files/" -F file=@<file_name>`
+- `curl -X PUT "http:127.0.0.1:8000/api/files/" -F file=@<file_name>`
 - `curl -X PUT "http:127.0.0.1:8000/api/files/<UUID>" --output <file_name>`
 - `curl -X PUT "http://127.0.0.1:8000/api/files/<UUID>?length=<some_value>&width=<some_value>" --output <file_name>`
